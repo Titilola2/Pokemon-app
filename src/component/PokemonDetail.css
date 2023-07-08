@@ -1,0 +1,46 @@
+.pokemon-details {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .pokemon-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff0000; /* Red color for the Pokémon name */
+  }
+  
+  .pokemon-details img {
+    width: 300px; /* Increase the image width for a larger display */
+    height: 300px; /* Increase the image height for a larger display */
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-details h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #0000ff; /* Blue color for section headings */
+  }
+  
+  .pokemon-details ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .pokemon-details li {
+    margin-bottom: 5px;
+    color: #008000; /* Green color for the Pokémon properties */
+  }
+  
+  .pokemon-details a {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #0000ff; /* Blue color for the "Go back to Home" link */
+    text-decoration: none;
+  }
+  
+  .pokemon-details a:hover {
+    text-decoration: underline;
+  }
+  
